@@ -271,6 +271,7 @@ class mydb_table {
 	 */
 	function delete( array $data = array() ) {
 		$deleted = false;
+		$data = $this->strip( $data );
 		
 		if( empty( $data ) && empty( $this->where ) ) {
 			$this->db->log_error( 'mydb_table->delete error: no data supplied' );
