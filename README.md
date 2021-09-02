@@ -80,7 +80,7 @@ table->get() will return an empty array if no rows found
 # CREDITS
 
 - Authors
-Thapelo Moeti (https://thapedict.co.za/)
+Thapelo Moeti
 
 
 # LICENSE
