@@ -36,7 +36,7 @@ You can optionally set some default connection values by defining them in the my
 ```php
 	$con = new mydb();
 	$table = new mydb_table( $con, 'all_cars' ); // assuming 'all_cars' is your table name
-	$cars = $table->get();    // returns an associative array
+	$table = $table->get();    // returns an associative array
 ```
 	
 **Example 2: Adding a table row**
